@@ -354,7 +354,7 @@ h1 em, h2 em { color: var(--pine); }
 .site-footer .container { position: relative; z-index: 1; padding-block: clamp(56px, 7vw, 84px) 30px; }
 .footer-top { display: grid; grid-template-columns: 1.5fr 1fr 1fr; gap: 2.4rem; padding-bottom: 2.6rem; border-bottom: 1px solid var(--line-cream); }
 .footer-brand__lockup { display: flex; align-items: center; gap: 13px; margin-bottom: 1.1rem; }
-.footer-brand__lockup img { width: 38px; }
+.footer-brand__lockup img { width: auto; height: 34px; }
 .footer-brand__lockup span { font-family: var(--serif); font-size: 1.3rem; color: var(--cream); }
 .footer-brand__lockup span em { font-style: italic; opacity: 0.9; }
 .footer-brand p { color: rgba(252, 235, 197, 0.62); max-width: 34ch; font-size: 0.96rem; }
